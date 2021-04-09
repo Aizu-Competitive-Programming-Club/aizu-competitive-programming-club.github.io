@@ -1,7 +1,9 @@
+- [ホーム](/)
+
 - [競技プログラミングとは?](/beginner/about-compro)
 
-<!-- - [競技プログラミングの始め方](/beginner/getting-started)
+- [競技プログラミングの始め方](/beginner/getting-started)
 
-- [環境構築について](/beginner/create-env)-->
+<!-- - [環境構築について](/beginner/create-env)-->
 
 - [付録](/beginner/appendix)
