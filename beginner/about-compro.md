@@ -42,11 +42,11 @@ int main() {
 
 [問題ページ](https://atcoder.jp/contests/abc086/tasks/abc086_a) の一番下の提出フォームに上のプログラムを貼り付け、言語を選択してから提出ボタンを押します。
 
-![submit 前の提出欄](/images/before_submit.jpg?center)
+![submit 前の提出欄](../images/before_submit.jpg?center)
 
 そうすると[提出](https://atcoder.jp/contests/abc086/submissions/21559223)がジャッジ中となります。数秒ほどすると、ジャッジが完了しました。結果は AC！これは Accepted、つまり正解を意味します。
 
-![提出の結果](/images/accepted_submission.jpg?center)
+![提出の結果](../images/accepted_submission.jpg?center)
 
 このような「ある問題について考察し、それを実行するプログラムを書く」という流れが、競技プログラミングの基本となります。
 
@@ -62,7 +62,7 @@ int main() {
 
 AtCoder のコンテストに参加することによって、**レーティング**が計算されます。このレーティングは強さを示す一つの指標であり、これを上げると名前の色が変わる等、この値自体が競技へのモチベーションの一つとなるようになっています。
 
-![AtCoder のレート上位ランキング（一部）](/images/ratings.png?center)
+![AtCoder のレート上位ランキング（一部）](../images/ratings.png?center)
 
 <!--これいる?
 ちなみに、よく勘違いされがちなレーティングの目安ですが、[AtCoder 社長のブログ](https://chokudai.hatenablog.com/entry/2019/02/11/155904)によると
