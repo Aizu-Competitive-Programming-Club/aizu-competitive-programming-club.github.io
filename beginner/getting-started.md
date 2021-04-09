@@ -21,7 +21,15 @@ Language は Japanese にしておくと、日本語がある問題は日本語�
 
 ![ITP1 の問題一覧](../images/itp1_menu)
 
+```
+"Hello World" と標準出力にプリントするプログラムを作成してください。
+```
 
+とありますね。これが問題文で、これを満たすようなプログラムを書くことができればこの問題が解けたことになります。
+
+今のままでは何を書けばよいか分からない方が多いと思います。そのために用意されているのが言語解説です。ITP の問題はそれぞれ言語説明と対応していて、これを読むことでどのようにプログラムを書くと良いかが分かります。
+
+![ITP1 の言語解説](../images/itp1_prenote)
 
 ## プログラムを書いてみよう
 
@@ -32,11 +40,24 @@ Language は Japanese にしておくと、日本語がある問題は日本語�
 
 ![ICE のメイン画面](../images/ice_mainscreen)
 
-この画面が見えたら、左にある<span class="material-icons" style="vertical-align:middle;">assignment</span>マークをクリックしてみてください。そうすると、今開いている問題文を見ることができます。デフォルトでは入門講座 `ITP1` の `Hello World` 問題が開かれているため、それを見ることができます。
+この画面が見えたら、実際にコードを書いてみましょう。上の Hello World を解くコードは、以下のようになります。
 
+```cpp
+#include<iostream>
+using namespace std;
+
+int main(){
+    cout << "Hello World" << endl;
+    return 0;
+}
+```
 
 <!--
+左にある<span class="material-icons" style="vertical-align:middle;">assignment</span>マークをクリックしてみてください。そうすると、今開いている問題文を見ることができます。デフォルトでは入門講座 `ITP1` の `Hello World` 問題が開かれているため、それを見ることができます。
+
 実際に ITP1 を用いた、環境構築を行わない方法（新入生に教える方法）を書く
 
 アカウント作成→Hello Worldまでのインスト→その後の進め方について
 -->
+
+実際にこれを提出してみましょう。
