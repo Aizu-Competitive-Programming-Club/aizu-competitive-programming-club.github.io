@@ -17,9 +17,9 @@ Language は Japanese にしておくと、日本語がある問題は日本語�
 
 ### 問題を見る
 
-今回は、AOJ のプログラミング学習コンテンツの [ITP1](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1) を使っていきます。これらが解けるようになれば、実際にコンテストに参加しても問題ないでしょう。
+今回は、AOJ のプログラミング学習コンテンツの [ITP1](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1) を使っていきます。これらが解けるようになれば、実際にコンテストに参加しても問題ないでしょう。
 
-では、早速一番最初の問題を見てみましょう。先程の [ITP1](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1) を開き、一番上の [1_A: Hello World](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A) をクリックしてください。
+では、早速一番最初の問題を見てみましょう。先程の [ITP1](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1f) を開き、一番上の [1_A: Hello World](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A) をクリックしてください。
 
 ![ITP1 の問題一覧](../images/itp1_menu.jpg)
 
@@ -66,7 +66,7 @@ Language は Japanese にしておくと、日本語がある問題は日本語�
 
 ### 他の問題も解いてみる
 
-[ITP1](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1) には他の問題もあります。これらの問題をある程度解けば、実際にコンテストに参加しても問題ない程度のプログラミングの知識がついているはずです。
+[ITP1](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1) には他の問題もあります。これらの問題をある程度解けば、実際にコンテストに参加しても問題ない程度のプログラミングの知識がついているはずです。
 
 他の問題に挑戦する前に、一つだけ補足があります。他の問題に提出する際は、左上にある `Course > ITP1 > ITP1_1_A` の `ITP1_1_A` と書かれた場所をクリックしてから、自分が提出したい問題を選択してください。
 
