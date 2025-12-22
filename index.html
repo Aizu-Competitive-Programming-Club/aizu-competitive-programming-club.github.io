@@ -14,6 +14,18 @@
     margin: auto;
   }
   </style>
+  <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -22,6 +34,15 @@
       el: "#app",
       loadSidebar: true,
       subMaxLevel: 4
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function () {
+            if (window.MathJax) {
+              MathJax.typesetPromise();
+            }
+          });
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
